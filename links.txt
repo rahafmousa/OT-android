@@ -22,6 +22,9 @@ APKtool compiling/decompiling
 https://ibotpeaches.github.io/Apktool/documentation/
 http://androidforums.com/threads/guide-how-to-properly-decompile-and-recompile-apks-with-apktool.520917/
 
+General decompile
+https://github.com/broodplank/APKtoJava
+
 Java repl 
 https://github.com/albertlatacz/java-repl
 
