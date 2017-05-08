@@ -26,6 +26,7 @@ Java repl
 https://github.com/albertlatacz/java-repl
 
 Activities / Drozer
+(Drozer: search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS)
 https://developer.android.com/reference/android/app/Activity.html
 https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf
 http://resources.infosecinstitute.com/android-hacking-security-part-13-introduction-drozer/
@@ -39,5 +40,6 @@ Certificate install Burp
 http://forum.portswigger.net/thread/300
 https://support.portswigger.net/customer/portal/articles/1841102-installing-burp-s-ca-certificate-in-an-android-device
 
+Tcpdump / wireshark 
 
 
