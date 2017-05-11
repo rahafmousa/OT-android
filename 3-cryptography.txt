@@ -96,6 +96,27 @@ Content-Length: 264
 
 
 
+This is the answer from Packet 1, the dota at line 97 are a gzip file called 'auth'
+When trying to decompress auth we get errors:
+
+mbaumann@88:~/Downloads$ file auth
+auth: gzip compressed data, from FAT filesystem (MS-DOS, OS/2, NT)
+
+mbaumann@88:~/Downloads$ binwalk -e auth
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             gzip compressed data, from FAT filesystem (MS-DOS, OS/2, NT), NULL date (1970-01-01 00:00:00)
+
+mbaumann@88:~/Downloads/_auth.extracted$ cat 0
+OK
+action=PAIRED
+authToken=pI7a5ARyRGitBuWK5G_fzQ
+measure=IMPERIAL
+displayName=testmarwin
+userId=33057444
+facebookConnected=false
+
+
 PACKET 3:
 GET /mobile/api/trainingplan/get?authToken=pI7a5ARyRGitBuWK5G_fzQ&language=en&gzip=true&compression=gzip HTTP/1.1
 Content-Type: application/octet-stream
