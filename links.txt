@@ -5,28 +5,35 @@ https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet
 
 INFO/TOOLS
 1 SOURCE CODE ANALYSES
-Look at the files
-smali 
-https://forum.xda-developers.com/showthread.php?t=2193735
 
-dex2jar 
-https://sourceforge.net/p/dex2jar/wiki/Faq/
-
-jadx 
-https://github.com/skylot/jadx
-
-how to create a JAR from a DEX
-https://forum.xda-developers.com/showthread.php?t=2345435
-
-APKtool compiling/decompiling
+APKtool compiling/decompiling -> Result: smali
 https://ibotpeaches.github.io/Apktool/documentation/
 http://androidforums.com/threads/guide-how-to-properly-decompile-and-recompile-apks-with-apktool.520917/
 
-General decompile
+smali 
+https://forum.xda-developers.com/showthread.php?t=2193735
+
+From smali/dex to jar files: dex2jar / enjarify
+https://sourceforge.net/p/dex2jar/wiki/Faq/
+https://forum.xda-developers.com/showthread.php?t=2345435
+https://github.com/Storyyeller/enjarify
+
+From Jar to Jave Source code: procyon / jd-gui
+https://github.com/Konloch/bytecode-viewer
+https://github.com/java-decompiler/jd-gui
+
+From Dex to Java Source: jadx / APKtoJava 
+https://github.com/skylot/jadx
 https://github.com/broodplank/APKtoJava
 
-Java repl 
+Java repl: tool for using single- or groups of methods in java without writing a whole constructor etc. 
 https://github.com/albertlatacz/java-repl
+
+keytool - Java tool for creating keys/certs. Comes with the JDK.
+https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
+
+jarsigner Java tool for signing JAR/APK files. Comes with the JDK.
+https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jarsigner.html
 
 Activities / Drozer
 (Drozer: search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS)
