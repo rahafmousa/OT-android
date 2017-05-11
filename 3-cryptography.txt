@@ -1,0 +1,168 @@
+%% CAPTURE OF SIGN UP PROCESS %%
+STEP 1: OPEN APP, AND CLICK ON SIGN UP:
+
+PACKET 1:
+GET /spi/v2/platforms/android/apps/com.endomondo.android/settings?icon_hash=d51fd6848ad8f58dc0632a2109b66417eb6cfc7f&display_version=17.4.0&source=1&instance=6836ae284974ee18cafe0b99c81adb01ab82a264&build_version=256 HTTP/1.1
+User-Agent: Crashlytics Android SDK/1.3.16.dev
+X-CRASHLYTICS-DEVELOPER-TOKEN: 470fa2b4ae81cd56ecbcda9735803434cec591fa
+X-CRASHLYTICS-API-KEY: e87ab368a1f1f0ea920023f59ca0ba89908dc451
+X-CRASHLYTICS-API-CLIENT-TYPE: android
+X-CRASHLYTICS-API-CLIENT-VERSION: 1.3.16.dev
+Accept: application/json
+X-CRASHLYTICS-DEVICE-MODEL: Genymotion/Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+X-CRASHLYTICS-OS-BUILD-VERSION: eng.genymotion.20170320.193527
+X-CRASHLYTICS-OS-DISPLAY-VERSION: 6.0
+X-CRASHLYTICS-INSTALLATION-ID: e976f81a0b564ddba708ac28e3e50383
+X-CRASHLYTICS-ANDROID-ID: 1de33d0473d630f5
+Host: settings.crashlytics.com
+Connection: close
+
+PACKET 2: 
+F91Y3%2BBc7n58jGK22vOU0cEMV%2BmWDDfvZFjNYNuuraRY4YW%2BbtzDMYI%2Bgm0s4%3D&ns_ap_ec=1&ns_ap_ev=start&ns_ap_device=vbox86p&ns_ap_id=1494515079481&ns_ap_csf=1&ns_ap_bi=com.endomondo.android&ns_ap_pfm=android&ns_ap_pfv=6.0&ns_ap_ver=17.4.0&ns_ap_sv=3.1502.26&ns_type=view&ns_radio=wifi&ns_nc=1&ns_ap_gs=1494515079426&ns_ap_jb=1&ns_ap_res=1080x1794&ns_ap_install=1494515079426&ns_ap_lastrun=0&ns_ap_cs=1&ns_ap_runs=1&ns_ap_usage=55&ns_ap_fg=1&ns_ap_ft=5&ns_ap_dft=5&ns_ap_bt=0&ns_ap_dbt=0&ns_ap_dit=50&ns_ap_as=1&ns_ap_das=55&ns_ap_it=50&ns_ap_lang=en&ns_ap_ar=i686&ns_ts=1494515079481 HTTP/1.1
+Connection: close
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K)
+Host: b.scorecardresearch.com
+
+PACKET 3:
+POST /public/apptracker/v6.0/post/apptracker.ashx?&appid=47aa020a-ba4f-4e92-8532-efd211ef4ae8&apiv=7.0.19-A&dbgid=b8cdb66d-de52-44df-83a2-1476476899e5 HTTP/1.1
+user-agent: Mozilla/5.0 (Linux; Android 6.0; Genymotion-Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36
+Content-Length: 95
+Content-Type: application/x-www-form-urlencoded
+Host: api.wirelessdeveloper.com
+Connection: close
+
+&languageCode=en&countryCode=US&appversion=17.4.0&optout=false&bundleName=com.endomondo.android
+
+PACKET 4:
+GET /mobile/api/countryconsent/list?language=en&compression=gzip HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+
+PACKET 5:
+POST / HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5230
+Host: api.amplitude.com
+Connection: close
+User-Agent: okhttp/3.0.1
+
+v=2&client=0c3e123ebf81b7f232889f15eb9265af&e=%5B%7B%22event_type%22%3A%22%24identify%22%2C%22timestamp%22%3A1494515078869%2C%22user_id%22%3Anull%2C%22device_id%22%3A%22a5ca87f3-4119-4790-9585-34c37aa37482R%22%2C%22session_id%22%3A1494515078869%2C%22version_name%22%3A%2217.4.0%22%2C%22os_name%22%3A%22android%22%2C%22os_version%22%3A%226.0%22%2C%22device_brand%22%3A%22Android%22%2C%22device_manufacturer%22%3A%22Genymotion%22%2C%22device_model%22%3A%22Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920%22%2C%22carrier%22%3A%22Android%22%2C%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%2C%22platform%22%3A%22Android%22%2C%22uuid%22%3A%22f92d7260-90f3-4dbb-952b-6041d8c6d02d%22%2C%22sequence_number%22%3A1%2C%22library%22%3A%7B%22name%22%3A%22amplitude-android%22%2C%22version%22%3A%222.13.3%22%7D%2C%22api_properties%22%3A%7B%22limit_ad_tracking%22%3Afalse%2C%22gps_enabled%22%3Afalse%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24set%22%3A%7B%22app_state%22%3A%22%22%7D%7D%2C%22groups%22%3A%7B%7D%2C%22event_id%22%3A1%7D%2C%7B%22event_type%22%3A%22%24identify%22%2C%22timestamp%22%3A1494515078878%2C%22user_id%22%3Anull%2C%22device_id%22%3A%22a5ca87f3-4119-4790-9585-34c37aa37482R%22%2C%22session_id%22%3A1494515078869%2C%22version_name%22%3A%2217.4.0%22%2C%22os_name%22%3A%22android%22%2C%22os_version%22%3A%226.0%22%2C%22device_brand%22%3A%22Android%22%2C%22device_manufacturer%22%3A%22Genymotion%22%2C%22device_model%22%3A%22Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920%22%2C%22carrier%22%3A%22Android%22%2C%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%2C%22platform%22%3A%22Android%22%2C%22uuid%22%3A%22ccfe5fe5-9f0c-4eda-8bd1-ccfc06cd6a27%22%2C%22sequence_number%22%3A2%2C%22library%22%3A%7B%22name%22%3A%22amplitude-android%22%2C%22version%22%3A%222.13.3%22%7D%2C%22api_properties%22%3A%7B%22limit_ad_tracking%22%3Afalse%2C%22gps_enabled%22%3Afalse%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24clearAll%22%3A%22-%22%7D%2C%22groups%22%3A%7B%7D%2C%22event_id%22%3A2%7D%2C%7B%22event_type%22%3A%22%24identify%22%2C%22timestamp%22%3A1494515078879%2C%22user_id%22%3Anull%2C%22device_id%22%3A%22f18a9cfc-5190-4e3d-b591-9981cf3e0a74R%22%2C%22session_id%22%3A1494515078869%2C%22version_name%22%3A%2217.4.0%22%2C%22os_name%22%3A%22android%22%2C%22os_version%22%3A%226.0%22%2C%22device_brand%22%3A%22Android%22%2C%22device_manufacturer%22%3A%22Genymotion%22%2C%22device_model%22%3A%22Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920%22%2C%22carrier%22%3A%22Android%22%2C%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%2C%22platform%22%3A%22Android%22%2C%22uuid%22%3A%22689a3d27-f18f-4f1e-87b0-d72566d38100%22%2C%22sequence_number%22%3A3%2C%22library%22%3A%7B%22name%22%3A%22amplitude-android%22%2C%22version%22%3A%222.13.3%22%7D%2C%22api_properties%22%3A%7B%22limit_ad_tracking%22%3Afalse%2C%22gps_enabled%22%3Afalse%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24set%22%3A%7B%22units%22%3A%22imperial%22%7D%7D%2C%22groups%22%3A%7B%7D%2C%22event_id%22%3A3%7D%2C%7B%22event_type%22%3A%22%24identify%22%2C%22timestamp%22%3A1494515078879%2C%22user_id%22%3Anull%2C%22device_id%22%3A%22f18a9cfc-5190-4e3d-b591-9981cf3e0a74R%22%2C%22session_id%22%3A1494515078869%2C%22version_name%22%3A%2217.4.0%22%2C%22os_name%22%3A%22android%22%2C%22os_version%22%3A%226.0%22%2C%22device_brand%22%3A%22Android%22%2C%22device_manufacturer%22%3A%22Genymotion%22%2C%22device_model%22%3A%22Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920%22%2C%22carrier%22%3A%22Android%22%2C%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%2C%22platform%22%3A%22Android%22%2C%22uuid%22%3A%2291aca7f0-d143-4f4f-9da0-1cb5e27f0f27%22%2C%22sequence_number%22%3A4%2C%22library%22%3A%7B%22name%22%3A%22amplitude-android%22%2C%22version%22%3A%222.13.3%22%7D%2C%22api_properties%22%3A%7B%22limit_ad_tracking%22%3Afalse%2C%22gps_enabled%22%3Afalse%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24set%22%3A%7B%22timezone%22%3A%22GMT-04%3A00%22%7D%7D%2C%22groups%22%3A%7B%7D%2C%22event_id%22%3A4%7D%2C%7B%22event_type%22%3A%22%24identify%22%2C%22timestamp%22%3A1494515078879%2C%22user_id%22%3Anull%2C%22device_id%22%3A%22f18a9cfc-5190-4e3d-b591-9981cf3e0a74R%22%2C%22session_id%22%3A1494515078869%2C%22version_name%22%3A%2217.4.0%22%2C%22os_name%22%3A%22android%22%2C%22os_version%22%3A%226.0%22%2C%22device_brand%22%3A%22Android%22%2C%22device_manufacturer%22%3A%22Genymotion%22%2C%22device_model%22%3A%22Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920%22%2C%22carrier%22%3A%22Android%22%2C%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%2C%22platform%22%3A%22Android%22%2C%22uuid%22%3A%22c74befdc-251e-40c3-aee0-4f8cb12e8d17%22%2C%22sequence_number%22%3A5%2C%22library%22%3A%7B%22name%22%3A%22amplitude-android%22%2C%22version%22%3A%222.13.3%22%7D%2C%22api_properties%22%3A%7B%22limit_ad_tracking%22%3Afalse%2C%22gps_enabled%22%3Afalse%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24set%22%3A%7B%22shealth_connected%22%3Afalse%7D%7D%2C%22groups%22%3A%7B%7D%2C%22event_id%22%3A5%7D%5D&upload_time=1494515109428&checksum=d8fb1c94ba292e48e698b5a2a09e4fa9
+
+PACKET 6:
+POST /spi/v2/events HTTP/1.1
+User-Agent: Crashlytics Android SDK/1.3.12.dev
+X-CRASHLYTICS-DEVELOPER-TOKEN: 470fa2b4ae81cd56ecbcda9735803434cec591fa
+X-CRASHLYTICS-API-CLIENT-TYPE: android
+X-CRASHLYTICS-API-CLIENT-VERSION: 1.3.12.dev
+X-CRASHLYTICS-API-KEY: e87ab368a1f1f0ea920023f59ca0ba89908dc451
+Content-Type: multipart/form-data; boundary=00content0boundary00
+Host: e.crashlytics.com
+Connection: close
+Content-Length: 632
+
+--00content0boundary00
+Content-Disposition: form-data; name="session_analytics_file_0"; filename="sa_d62657ae-8d8f-4c9e-ae79-8b5d4c01be85_1494515078451.tap"
+Content-Type: application/vnd.crashlytics.android.events
+
+
+
+STEP 2: Fillin in the details, during country selection this packets is send:
+
+GET /mobile/api/countryconsent/list?language=en&compression=gzip HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+
+STEP 3: Click Sign up
+
+STEP 4: Click Confirm
+PACKET 1:
+GET /mobile/auth?deviceId=ca9ae425-0aff-4812-8161-475d85170d1d&password=marwin&signupVersion=2&action=auto&email=a239249%40mvrht.net&gender=male&carrier_name=Android&unique_device_id=1de33d0473d630f5&birthday=1987-04-11&mobile_country_code=310&os=Android&androidDebug=LR2_LPEF1&v=2.4&gzip=true&appVersion=17.4.0&country=us&osVersion=6.0&name=testmarwin&mobile_network_code=270&compression=gzip&appVariant=Market&vendor=Genymotion&model=Google+Nexus+5X+-+6.0.0+-+API+23+-+1080x1920 HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+
+PACKET 2: 
+POST /mobile/api/profile/device/?deviceId=ca9ae425-0aff-4812-8161-475d85170d1d&authToken=pI7a5ARyRGitBuWK5G_fzQ&gzip=true&compression=gzip&account.fields=recent_sports&init=true HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+Content-Length: 264
+
+
+
+PACKET 3:
+GET /mobile/api/trainingplan/get?authToken=pI7a5ARyRGitBuWK5G_fzQ&language=en&gzip=true&compression=gzip HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+
+PACKET 4:
+POST /v2.3/202423869273/activities?access_token=&format=json&sdk=android HTTP/1.1
+User-Agent: FBAndroidSDK.4.3.0
+Accept-Language: en_US
+Content-Type: multipart/form-data; boundary=3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Host: graph.facebook.com
+Connection: close
+Content-Length: 1282
+
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="format"
+
+json
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="sdk"
+
+android
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="custom_events_file"; filename="custom_events_file"
+Content-Type: content/unknown
+
+[{"_eventName":"fb_mobile_activate_app","_logTime":1494515993,"_ui":"EndomondoActivity","fb_mobile_launch_source":"Unclassified"}]
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="event"
+
+CUSTOM_APP_EVENTS
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="anon_id"
+
+XZ2cccb73a-d9ec-4cea-9698-9d5ae3c745fc
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="application_tracking_enabled"
+
+true
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="extinfo"
+
+["a2","com.endomondo.android",256,"17.4.0","6.0","Google Nexus 5X - 6.0.0 - API 23 - 1080x1920","en_US","EDT","Android",1080,1794,"2.62",4,12,12]
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Content-Disposition: form-data; name="application_package_name"
+
+com.endomondo.android
+--3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+
+PACKET 5: 
+GET /mads/static/mad/sdk/native/sdk-core-v40.html HTTP/1.1
+Host: googleads.g.doubleclick.net
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36 (Mobile; afma-sdk-a-v10298000.10298000.0)
+Accept-Language: en-US
+X-Requested-With: com.endomondo.android
+
+PACKET 6: 
+GET /mobile/api/trainingplan/get?authToken=pI7a5ARyRGitBuWK5G_fzQ&language=en&gzip=true&compression=gzip HTTP/1.1
+Content-Type: application/octet-stream
+Connection: close
+User-Agent: com.endomondo.android/17.4.0 (Linux; U; Android 6.0; en-us; Google Nexus 5X - 6.0.0 - API 23 - 1080x1920 Build/MRA58K; Android) 1080X1794 Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+Host: api.mobile.endomondo.com
+
+NOW THE APP IS OPEN AT STARTSCREEN
+
