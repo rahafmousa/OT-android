@@ -1,3 +1,5 @@
+
+##3.1##
 %% CAPTURE OF SIGN UP PROCESS %%
 STEP 1: OPEN APP, AND CLICK ON SIGN UP:
 
@@ -187,3 +189,5 @@ Host: api.mobile.endomondo.com
 
 NOW THE APP IS OPEN AT STARTSCREEN
 
+
+##3.2##
