@@ -1,7 +1,9 @@
  - Looking in shared preferences: 
  Found Tokenkey= ZTjij5XsTTi7wpl4HJGxBA in file /data/data/com.endomondo.android/shared_prefs/com.endomondo.android_preferences.xml with the userNameKey= quak@grr.la
- 
- 
+ Shared Preferences used to have features called "MODE_WORLD_READABLE" and "MODE_WORLD_WRITABLE" which enable other apps/users to read/modify the app's data. Those features are deprecated from API level 17.
+ (from websie) and these weren't found in the code anyway.
  http://www.androidpentesting.com/2013/12/pentesting-android-applications-part-2.html
- 
- 
+-External storage 
+No data related to the app is stored on the external storage
+
+*Looking more deeply in Using content providers 
